@@ -1,0 +1,247 @@
+fix the navbars
+continue React course
+TailwindCSS
+
+------------------------------------------------------------
+
+change the photo of the bald man to a yellow circle  - DONE
+get all the components
+React router
+we need to add padding to the input boxes to space them out a little bit
+"Select your department" to gray
+
+--------------------------------------------------------------------today 2022/02/24
+
+react router - one person do this --> Sai
+landing page --> do this together
+continue with all the components: 
+settings page 
+
+
+
+
+---------------------------------------------------------------------today 2022/02/25
+
+react router - one person do this --> Sai
+
+make a start on the other pages:
+select mentor page today
+Submit button need to be right of the screen. ---------- X have not finished
+
+
+----------------------------------------------------------------------today 2022/02/26
+change the text
+change each card
+create a feature for choosing which mentor you want
+
+fix the feedback form ----> Sai (doesn't actually send the feedback anywhere lol)
+
+select mentor button ------> yj
+
+
+fix the space above and below discrepancy in outnav - a very minor thing
+
+
+-----------------------------------------------------------------------------2022/02/27
+
+react router
+pop up window
+calendar
+my mentor
+more info
+
+
+
+
+useEffect -> fetch data from backend 
+useState -> state of component ->
+
+token shit for authorisation
+
+---------------------------------------------------today 2022/02/27
+
+finish off the routing
+the select mentor page -> fix the problem here later
+
+pop up windows
+
+(maybe calendar)
+
+NOTE: finsh off the routing when use signed in
+
+home page and the pop up
+
+
+{/* <div className="App">
+<header className="App-header">
+    <img
+    src={logo}
+    className="App-logo"
+    alt="logo"
+    />
+    <p>
+    Edit <code>src/App.js</code> and save to
+    reload.
+    </p>
+    <a
+    className="App-link"
+    href="https://reactjs.org"
+    target="_blank"
+    rel="noopener noreferrer"
+    >
+    Learn React 2
+    </a>
+</header>
+</div> */}
+
+--------------------------------------------------------------list of things to do: (06/03/2022)
+
+1) personalisation for a user
+2) send to the logout endpoint
+
+
+
+finish off the calendar and upcoming 4 meetings
+change the token from state to localStorage
+start making the other pages
+make the settings page proper
+
+
+-------------------------------------------------------------------------08/03/2022
+
+make the more info pages controlled components - make into a form
+notifications pop up - maybe tomorrow
+request meeting thing - date has to be formatted correctly
+
+Select mentor
+My mentees
+
+
+1) make controlled components - make it into a form
+
+2) 3 different pop ups that I sent you screenshots of
+
+3) select mentor and choose a mentor
+
+4) edits to my mentor page  
+
+
+-------------------------------------------- 09/03/2022
+
+1) mentor profile page - change the picture
+
+2) edit button in the my mentor paget
+
+3) plan of action 
+
+
+
+
+---------------------------------------------10/03/2022
+
+1) finish off the onboarding process
+2) spoof it if required
+
+
+
+
+    {/* <div className="flex flex-col mt-2 lg:flex-row">
+    <div className="w-full lg:w-1/2">
+    <div className="font-bold ml-4 mt-3">Overall rating</div>
+    <div className="ml-6 text-gray-800">See details</div>
+    </div>
+    <div className="w-full lg:w-1/2 bg-gray-200 ratingbox flex content-center justify-center">
+    <svg
+        aria-hidden="true"
+        focusable="false"
+        data-prefix="fas"
+        data-icon="star"
+        class="w-4 text-indigo-600 mr-4"
+        role="img"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 576 512"
+    >
+        <path
+        fill="currentColor"
+        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+        ></path>
+    </svg>
+    <svg
+        aria-hidden="true"
+        focusable="false"
+        data-prefix="fas"
+        data-icon="star"
+        class="w-4 text-indigo-600 mr-4"
+        role="img"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 576 512"
+    >
+        <path
+        fill="currentColor"
+        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+        ></path>
+    </svg>
+    <svg
+        aria-hidden="true"
+        focusable="false"
+        data-prefix="fas"
+        data-icon="star"
+        class="w-4 text-indigo-600 mr-4"
+        role="img"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 576 512"
+    >
+        <path
+        fill="currentColor"
+        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+        ></path>
+    </svg>
+    <svg
+        aria-hidden="true"
+        focusable="false"
+        data-prefix="fas"
+        data-icon="star"
+        class="w-4 text-indigo-600 mr-4"
+        role="img"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 576 512"
+    >
+        <path
+        fill="currentColor"
+        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+        ></path>
+    </svg>
+    <svg
+        aria-hidden="true"
+        focusable="false"
+        data-prefix="far"
+        data-icon="star"
+        class="w-4 text-indigo-600"
+        role="img"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 576 512"
+    >
+        <path
+        fill="currentColor"
+        d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"
+        ></path>
+    </svg>
+    </div>
+    </div> */}
+
+
+
+move the request meeting to the mentorrelationship page - DONE but the date needs to be formatted correctly
+
+call the API to get the data for the mentorrelationship and menteerelationship page - to get all the information about the mentor and topics, meeting log etc.
+
+accept or postpone a meeting requests - should not be in the notifications box for "My Mentees page" - no interactibility whatsoever
+
+integrate the create workshop popup. - am doing that now
+
+
+
+1) Connecting the mentorrelationship and menteerelationship to backend - mostly done anyway 
+2) Request meetings thing
+2) accepting or rejecting a meetings request
+

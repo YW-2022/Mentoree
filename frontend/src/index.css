@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas,
+    "Courier New", monospace;
+}
+
+.navbar {
+  background-color: linear-gradient(
+    90deg,
+    #8fb7bc 0.02%,
+    #94b9bf 0.03%,
+    #6ea5a8 0.04%,
+    #6ea5a8 19.27%,
+    #ded8ec 100%
+  );
+}
+
+.navbar-logo {
+  width: 50px;
+  height: 30px;
+}
+
+.navbar-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: linear-gradient(
+    90deg,
+    #8fb7bc 0.02%,
+    #94b9bf 0.03%,
+    #6ea5a8 0.04%,
+    #6ea5a8 19.27%,
+    #ded8ec 100%
+  );
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar-text {
+  float: left;
+}
+
+.nav-link {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+/* .yixwang {
+  margin-top: -0.25em;
+} */
+
+.upcominglist{
+  height: 33.2rem;
+  width: 32rem;
+}
+
+.list{
+  height: 5rem;
+  width: 30rem;
+}
